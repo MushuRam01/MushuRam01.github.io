@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Angad Ahuja</title>
+    <meta name="description" content="Projects by Angad Ahuja">
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+  </head>
+
+  <body>
+    <!-- Animated Header Background with Multiple Images -->
+    <div class="header-background">
+      <div class="bg-image active" style="background-image: url('bg1.png');"></div>
+      <div class="bg-image" style="background-image: url('bg2.png');"></div>
+      <div class="bg-image" style="background-image: url('bg3.png');"></div>
+      <div class="bg-image" style="background-image: url('bg4.png');"></div>
+    </div>
+    
+    <div id="content">
+      <h1 class="main-title">Projects</h1>
+
+      <div class="left">
+        <p><a href="index.html">← Back to Home</a></p>
+      </div>
+
+      <div class="right entry">
+        <ul class="projects-list">
+          <li>
+            <strong>Deepfake Detection on Edge</strong>
+            <span class="date">2025</span>
+            <p>
+              Built an edge-deployable deepfake image detector using ResNet-50 transfer learning with quantization for deployment. 
+              Achieved 82% accuracy on the quantized model while tracking latency and size trade-offs to keep inference practical 
+              on constrained devices.
+            </p>
+          </li>
+          <li>
+            <strong>ROI Color Control Losses for Inpainting</strong>
+            <span class="date">2025</span>
+            <p>
+              Implemented inference-time loss functions for severe color control, monitoring per-step ROI drift and reconstruction 
+              error to preserve target color fidelity while keeping the background unchanged. Achieved ΔE₀₀ under 5.
+            </p>
+          </li>
+          <li>
+            <strong>Vision Transformer (ViT) on CIFAR-10</strong>
+            <span class="date">Jun 2025</span>
+            <p>
+              Built a Vision Transformer from scratch with patch embeddings, attaining 75% test accuracy with 12% improvement 
+              over CNN baseline. Reduced training time by 22% via gradient checkpointing and implemented LR warmup with cosine 
+              decay to converge 3× faster than standard schedulers.
+            </p>
+          </li>
+          <li>
+            <strong>Weighted Transparency Index for Indian Non-profits</strong>
+            <span class="date">Dec 2024 - May 2025</span>
+            <p>
+              Synthesized mandatory and voluntary reporting dimensions using fairness-constrained optimization to derive weightings 
+              penalizing asymmetrical disclosures. Collected over 68 transparency items, verified scores against Guidestar India 
+              rankings, and led a team of 3 in collaboration with CSIP at Ashoka University.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="footer-nav">
+        <a href="index.html">Home</a> | 
+        <a href="experience.html">Experience</a> | 
+        <a href="projects.html">Projects</a> | 
+        <a href="calendar.html">Calendar</a> | 
+        <a href="https://calendly.com/ahujaangadsingh/interview-ai-design-gen" target="_blank">Book a Meeting</a>
+      </div>
+      <button id="theme-toggle" aria-label="Toggle dark/light mode">
+        <span id="theme-icon">☀️</span>
+      </button>
+      <p>&copy; 2026 Angad Ahuja. All rights reserved.</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

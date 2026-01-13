@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience - Angad Ahuja</title>
+    <meta name="description" content="Professional experience of Angad Ahuja">
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+  </head>
+
+  <body>
+    <!-- Animated Header Background with Multiple Images -->
+    <div class="header-background">
+      <div class="bg-image active" style="background-image: url('bg1.png');"></div>
+      <div class="bg-image" style="background-image: url('bg2.png');"></div>
+      <div class="bg-image" style="background-image: url('bg3.png');"></div>
+      <div class="bg-image" style="background-image: url('bg4.png');"></div>
+    </div>
+    
+    <div id="content">
+      <h1 class="main-title">Experience</h1>
+
+      <div class="left">
+        <p><a href="index.html">← Back to Home</a></p>
+      </div>
+
+      <div class="right entry">
+        <ul class="experience-list">
+          <li>
+            <strong>Post-Generation Team</strong> - Centre for Constrained Image Generation
+            <span class="date">Oct 2025 - Present · Columbus, Ohio, USA</span>
+            <p>
+              Built constraint-aware image generation pipelines using diffusion and inpainting with deterministic slot-filling. 
+              Developed and evaluated 6 architectures end-to-end, selecting a final pipeline producing reliable 600 DPI and 300 DPI outputs 
+              with compliance checks and export-validity gates.
+            </p>
+            <p>
+              Designed evaluation harness tracking fidelity metrics (SSIM, PSNR), inference latency, and throughput to guide 
+              iteration toward deployment-ready systems. Created and led a team of 11, establishing sprint structure, 
+              code-review gates, and reproducible experiment tracking.
+            </p>
+          </li>
+          <li>
+            <strong>Research Lead, M&E Vertical</strong> - Science of Sadharan with Prakash Labs (Stanford)
+            <span class="date">Jul 2024 - Oct 2025 · India</span>
+            <p>
+              Spearheaded NLP pipelines with custom tokenization and Transformer-based sentiment models to convert field feedback 
+              into analysis-ready signals. Designed and trained CNN-based image-labeling models achieving 92% validation accuracy 
+              for classifying educational materials.
+            </p>
+            <p>
+              Architected and deployed a WhatsApp chatbot (Twilio API + Python) with Firebase-backed storage, collecting data 
+              from over 2000 students. Conducted Hindi/English normalization and topic modeling (LDA + Word2Vec) for impact evaluation. 
+              Managed end-to-end M&E workflows for a five-member team and published comprehensive Impact Reports.
+            </p>
+          </li>
+          <li>
+            <strong>Research Intern</strong> - KCDH-IITB (Koita Centre for Digital Health)
+            <span class="date">Oct 2023 - Jul 2024 · Mumbai, India</span>
+            <p>
+              Built a mental-health support chatbot processing PHQ-9 and GAD-7 responses through Transformer-based sentiment 
+              classifier to generate affective-state vectors, iterated using engagement and response-fidelity checks in 
+              IRB-approved pilots.
+            </p>
+            <p>
+              Developed an agent-based computational model to evaluate policing, screening, and therapeutic interventions 
+              for university substance use, validated through sensitivity analyses to support harm-reduction recommendations. 
+              Formed and led a team of 5 to execute model development and evaluation.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="footer-nav">
+        <a href="index.html">Home</a> | 
+        <a href="experience.html">Experience</a> | 
+        <a href="projects.html">Projects</a> | 
+        <a href="calendar.html">Calendar</a> | 
+        <a href="https://calendly.com/ahujaangadsingh/interview-ai-design-gen" target="_blank">Book a Meeting</a>
+      </div>
+      <button id="theme-toggle" aria-label="Toggle dark/light mode">
+        <span id="theme-icon">☀️</span>
+      </button>
+      <p>&copy; 2026 Angad Ahuja. All rights reserved.</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
