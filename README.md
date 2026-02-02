@@ -1,12 +1,12 @@
-# Angad Ahuja - Portfolio Website
+# Aarush Ram Anandh - Portfolio Website
 
-A minimalist personal portfolio website showcasing experience in Deep Learning, Computer Vision, and Edge AI. Built with HTML, CSS, and JavaScript.
+A minimalist personal portfolio website showcasing yours truly. Built with HTML, CSS, and JavaScript.
 
 ## 🚀 Quick Start
 
 ### Option 1: GitHub Pages (Recommended)
 
-1. **Create a GitHub repository** named `AngadSingh22.github.io` (or `yourusername.github.io` with your GitHub username)
+1. **Create a GitHub repository** named  `yourusername.github.io` with your GitHub username
 
 2. **Upload these files** to your new repository
 
